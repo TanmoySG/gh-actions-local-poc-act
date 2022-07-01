@@ -38,3 +38,7 @@ act -g
 ```
 
 See more here - https://github.com/nektos/act#example-commands
+
+### Known Issues
+
+- While setting up go and dependancies, there were some ca-caertificate error and if any package requires C , GCC Compiler also needs to be configured, hence the apt-get's 
